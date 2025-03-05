@@ -11,9 +11,23 @@
     <link href="style.css" rel="stylesheet" />
     
     
-    <title>SBA 308A JavaScript Web Application</title>
+    <title>Weather App</title>
 </head>
 <body>
+    <!-- <form action="">
+        <input type="search" placeholder=" Type City Name Here " id="">
+    </form> -->
+
+    <div id = "weather-container">
+        <h2>Weather App</h2>
+        <input type="text" id="city" placeholder="Enter City">
+        <button onclick="getWeather()">Search</button>
+
+        <img id="weather-icon" alt="Weather Icon">
+        <div id="temp-div"></div>
+        <div id="weather-info"></div>
+        <div id="hourly-forecast"></div>
+    </div>
     
 </body>
 </html>
